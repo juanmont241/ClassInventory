@@ -45,7 +45,7 @@
             this.removeInput = new System.Windows.Forms.TextBox();
             this.nameLabel2 = new System.Windows.Forms.Label();
             this.displayBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.showButton = new System.Windows.Forms.Button();
             this.searchButton = new System.Windows.Forms.Button();
             this.nameSearchInput = new System.Windows.Forms.TextBox();
@@ -210,7 +210,7 @@
             // 
             // displayBox
             // 
-            this.displayBox.Controls.Add(this.label1);
+            this.displayBox.Controls.Add(this.outputLabel);
             this.displayBox.Controls.Add(this.showButton);
             this.displayBox.Controls.Add(this.searchButton);
             this.displayBox.Controls.Add(this.nameSearchInput);
@@ -224,15 +224,15 @@
             this.displayBox.TabStop = false;
             this.displayBox.Text = "Output";
             // 
-            // label1
+            // outputLabel
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(10, 103);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 238);
-            this.label1.TabIndex = 10;
+            this.outputLabel.BackColor = System.Drawing.Color.White;
+            this.outputLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.Color.Black;
+            this.outputLabel.Location = new System.Drawing.Point(10, 103);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(265, 238);
+            this.outputLabel.TabIndex = 10;
             // 
             // showButton
             // 
@@ -314,7 +314,7 @@
         private System.Windows.Forms.TextBox removeInput;
         private System.Windows.Forms.Label nameLabel2;
         private System.Windows.Forms.GroupBox displayBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.Button showButton;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.TextBox nameSearchInput;
